@@ -18,6 +18,17 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+
+Route::group(['prefix' => 'services'], function (){
+    Route::get('/conseil',function (){ return view('Services.conseil'); })->name('services.conseil');
+    Route::get('/transformation',function (){ return view('Services.transformation'); })->name('services.transformation');
+    Route::get('/logiciel',function (){ return view('Services.logiciel'); })->name('services.logiciel');
+    Route::get('/web',function (){ return view('Services.web'); })->name('services.web');
+    Route::get('/digitale',function (){ return view('Services.digital'); })->name('services.digital');
+    Route::get('/infographie',function (){ return view('Services.infographe'); })->name('services.infographe');
+
+});
+
 Route::get('/fonctionnalités', function () {
     return view('main_features');
 })->name('main');

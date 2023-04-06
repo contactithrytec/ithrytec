@@ -40,6 +40,11 @@
         .btm{
             position: absolute;bottom: 8px;left: 16px;
         }
+        .order_list{
+            display: table;
+            margin: 0 auto;
+            text-align: left;
+        }
     </style>
 </head>
 

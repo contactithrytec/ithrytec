@@ -38,7 +38,7 @@
                             <div class="row no-gutters">
                                 <div class="col-md-6">
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="shared-hosting.html">
+                                        <a class="title-with-icon-link" href="{{route('services.conseil')}}">
                                             <div class="media">
                                                 <div class="media-body">
                                                     <span class="u-header__promo-title">Conseil & Accompagnement</span>
@@ -47,7 +47,7 @@
                                         </a>
                                     </div>
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="shared-hosting.html">
+                                        <a class="title-with-icon-link" href="{{route('services.transformation')}}">
                                             <div class="media">
                                                 <div class="media-body">
                                                     <span class="u-header__promo-title">Transformation digitale</span>
@@ -56,7 +56,7 @@
                                         </a>
                                     </div>
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="shared-hosting.html">
+                                        <a class="title-with-icon-link" href="{{route('services.logiciel')}}">
                                             <div class="media">
                                                 <div class="media-body">
                                                     <span class="u-header__promo-title">Développement de logiciels</span>
@@ -69,7 +69,7 @@
 
                                 <div class="col-md-6">
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="shared-hosting.html">
+                                        <a class="title-with-icon-link" href="{{route('services.web')}}">
                                             <div class="media">
                                                 <div class="media-body">
                                                     <span class="u-header__promo-title">Développement Web</span>
@@ -78,7 +78,7 @@
                                         </a>
                                     </div>
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="shared-hosting.html">
+                                        <a class="title-with-icon-link" href="{{route('services.digital')}}">
                                             <div class="media">
                                                 <div class="media-body">
                                                     <span class="u-header__promo-title">Stratégies digitale</span>
@@ -87,7 +87,7 @@
                                         </a>
                                     </div>
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="shared-hosting.html">
+                                        <a class="title-with-icon-link" href="{{route('services.infographe')}}">
                                             <div class="media">
                                                 <div class="media-body">
                                                     <span class="u-header__promo-title">Graphisme & Infographie</span>

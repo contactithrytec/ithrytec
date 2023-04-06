@@ -24,22 +24,22 @@
                             <h4 class="text-white">Services</h4>
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Conseil & Accompagnement</a>
+                                    <a class="nav-link" href="{{route('services.conseil')}}">Conseil & Accompagnement</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Transformation digitale</a>
+                                    <a class="nav-link" href="{{route('services.transformation')}}">Transformation digitale</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Développement de logiciels</a>
+                                    <a class="nav-link" href="{{route('services.logiciel')}}">Développement de logiciels</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Développement Web</a>
+                                    <a class="nav-link" href="{{route('services.web')}}">Développement Web</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Stratégies digitale</a>
+                                    <a class="nav-link" href="{{route('services.digital')}}">Stratégies digitale</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Graphisme & Infographie</a>
+                                    <a class="nav-link" href="{{route('services.infographe')}}">Graphisme & Infographie</a>
                                 </li>
                             </ul>
                         </div>
