@@ -25,7 +25,7 @@
 
                     <!--pages start-->
                     <li class="nav-item submenu-item" id="main_nav">
-                        <a class="nav-link custom-nav-link is_active_nav_link" href="{{route('main')}}" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">À propos</a>
+                        <a class="nav-link custom-nav-link is_active_nav_link" href="{{route('about')}}" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">À propos</a>
                     </li>
 
 
