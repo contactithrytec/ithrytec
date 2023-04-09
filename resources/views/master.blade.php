@@ -92,6 +92,7 @@
 <script src="{{asset('js/vendors/magnific-popup.min.js')}}"></script>
 <script src="{{asset('js/vendors/hs.megamenu.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
+
 <!--endbuild-->
 </body>
 

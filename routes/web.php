@@ -43,8 +43,13 @@ Route::get('/about', function () {
 
 Route::get('/contact', function () {
     $countries=\App\Models\Country::all();
-    return view('devis',compact('countries'));
-})->name('estimate');
+    return view('contact',compact('countries'));
+})->name('contact');
+
+Route::get('/rendez-vous', function () {
+    $countries=\App\Models\Country::all();
+    return view('rendez-vous',compact('countries'));
+})->name('rendez-vous');
 
 /*Route::get('/contact', function () {
     return view('contact');
@@ -52,3 +57,5 @@ Route::get('/contact', function () {
 
 Route::post('/contact/' ,[ContactController::class, 'store_contact'])->name('contact.store');
 Route::post('/estimate/' ,[ContactController::class, 'store_estimate'])->name('estimate.store');
+Route::post('/rendez-vous/' ,[ContactController::class, 'store_date'])->name('date.store');
+

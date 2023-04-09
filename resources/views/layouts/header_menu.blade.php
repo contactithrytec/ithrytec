@@ -151,13 +151,13 @@
                     <!--support end-->
 
                     <li class="nav-item submenu-item" id="main_nav">
-                        <a class="nav-link custom-nav-link is_active_nav_link" href="{{route('main')}}" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Contacts</a>
+                        <a class="nav-link custom-nav-link is_active_nav_link" href="{{route('contact')}}" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Contacts</a>
                     </li>
 
 
                     <!--button start-->
                     <li class="nav-item header-nav-last-item d-flex align-items-center">
-                        <a class="btn outline-white-btn animated-btn" href="#" target="_blank">
+                        <a class="btn outline-white-btn animated-btn" href="{{route('rendez-vous')}}">
                             PLANIFIER UN RENDEZ-VOUS
                         </a>
                     </li>
