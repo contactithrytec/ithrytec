@@ -11,7 +11,7 @@
                         marketing et informatique de l'atteinte de cet objectif. Nous serons heureux de vous
                         aider, vous êtes tombés sur la bonne agence digitale.</p>
                     <div class="action-btns mt-3">
-                        <a href="#"class="btn primary-solid-btn">Contactez-nous</a>
+                        <a href="{{route('contact')}}"class="btn primary-solid-btn">Contactez-nous</a>
                     </div>
                 </div>
             </div>

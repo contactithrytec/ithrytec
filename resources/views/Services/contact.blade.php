@@ -6,8 +6,8 @@
                 <div class="call-to-action-content text-white text-center">
                     <h2 class="text-white">Contactez-nous <br> pour votre projet digitale</h2>
                     <div class="action-btns mt-3">
-                        <a href="#" class="btn outline-white-btn animated-btn">Contactez-nous</a>
-                        <a href="#" class="btn outline-white-btn animated-btn">Demander un devis</a>
+                        <a href="{{route('contact')}}" class="btn outline-white-btn animated-btn">Contactez-nous</a>
+                        <a href="{{route('contact')}}" class="btn outline-white-btn animated-btn">Demander un devis</a>
                     </div>
                 </div>
             </div>

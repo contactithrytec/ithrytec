@@ -109,7 +109,7 @@
                         <!--support submenu start-->
                         <div class="hs-mega-menu main-sub-menu" aria-labelledby="supportMegaMenu" style="min-width: 330px;">
                             <div class="title-with-icon-item">
-                                <a class="title-with-icon-link" href="shared-hosting.html">
+                                <a class="title-with-icon-link" href="https://demo.pylcom.app/" target="_blank">
                                     <div class="media">
                                         <div class="media-body">
                                             <span class="u-header__promo-title">Solution de gestion commerciale</span>

@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="section-heading text-center mb-5 mt-4">
-                    <a href="#" class="btn secondary-outline-btn">DEMANDER UNE DEMO</a>
+                    <a href="{{route('contact')}}" class="btn secondary-outline-btn">DEMANDER UNE DEMO</a>
                 </div>
             </div>
         </div>

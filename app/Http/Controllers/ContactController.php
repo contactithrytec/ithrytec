@@ -39,8 +39,8 @@ class ContactController extends Controller
             'email' => $request->get('email'),
             'user_query' => $request->get('message'),
         ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('contact@ithrytec.com', 'Admin')->subject($request->get('message'));
+            $message->replyTo($request->email);
+            $message->to('contact@ithrytec.com', 'Admin')->subject('Contactez-nous');
         });
 
         return back()->with('success', 'Nous avons reçu votre message et nous tenons à vous remercier de nous avoir écrit..');
@@ -87,8 +87,8 @@ class ContactController extends Controller
             'needs' => $request->get('needs'),
             'email' => $request->get('email'),
         ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('contact@ithrytec.com', 'Admin');
+            $message->replyTo($request->email);
+            $message->to('contact@ithrytec.com', 'Admin')->subject('Demander un devis');
         });
 
         return back()->with('success', 'Nous avons reçu votre message et nous tenons à vous remercier de nous avoir écrit..');
@@ -134,8 +134,8 @@ class ContactController extends Controller
             'comment' => $request->get('needs'),
             'email' => $request->get('email'),
         ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('contact@ithrytec.com', 'Admin');
+            $message->replyTo($request->email);
+            $message->to('contact@ithrytec.com', 'Admin')->subject('Planifier un rendez-vous');
         });
 
         return back()->with('success', 'Nous avons reçu votre message et nous tenons à vous remercier de nous avoir écrit..');

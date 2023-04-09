@@ -10,7 +10,7 @@
                             de votre projet il veut proposer des solutions et services adaptés à vos besoins.</b>
                     </p>
                     <div class="action-btns mt-4">
-                        <a href="#" class="btn outline-white-btn animated-btn">Demander un rendez-vous</a>
+                        <a href="{{route('rendez-vous')}}" class="btn outline-white-btn animated-btn">Demander un rendez-vous</a>
                     </div>
                     <br>
                     <h6 class="text-white">Téléphone :</h6>

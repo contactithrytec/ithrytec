@@ -12,8 +12,8 @@
                     </h3>
                 </div>
                 <div class="section-heading text-center mb-5 mt-4">
-                    <a href="#" class="btn secondary-outline-btn">CONTACTEZ-NOUS</a>
-                    <a href="#" class="btn secondary-outline-btn">PLANIFIER UN RENDEZ-VOUS</a>
+                    <a href="{{route('contact')}}" class="btn secondary-outline-btn">CONTACTEZ-NOUS</a>
+                    <a href="{{route('rendez-vous')}}" class="btn secondary-outline-btn">PLANIFIER UN RENDEZ-VOUS</a>
                 </div>
             </div>
         </div>

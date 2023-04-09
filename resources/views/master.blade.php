@@ -33,6 +33,8 @@
     <!-- endbuild -->
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <style>
         .cnt{
             position: relative;text-align: center;color: white;

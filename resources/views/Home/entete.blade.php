@@ -33,7 +33,7 @@
                         </li>
                     </ul>--}}
                     <div class="action-btns mt-4">
-                        <a href="#" class="btn outline-white-btn animated-btn">CONTACTEZ-NOUS</a>
+                        <a href="{{route('contact')}}" class="btn outline-white-btn animated-btn">CONTACTEZ-NOUS</a>
                     </div>
                 </div>
             </div>

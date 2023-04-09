@@ -72,22 +72,19 @@
                             <h4 class="text-white">Liens</h4>
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Accueil</a>
+                                    <a class="nav-link" href="{{route('home')}}">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">À propos</a>
+                                    <a class="nav-link" href="{{route('about')}}">À propos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacts</a>
+                                    <a class="nav-link" href="{{route('contact')}}">Contacts</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Demander un Devis</a>
+                                    <a class="nav-link" href="{{route('contact')}}">Demander un Devis</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Demander une Demo</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Demander un Rendez-Vous</a>
+                                    <a class="nav-link" href="{{route('rendez-vous')}}">Demander un Rendez-Vous</a>
                                 </li>
                             </ul>
                         </div>
