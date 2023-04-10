@@ -49,19 +49,16 @@
                             <h4 class="text-white">Solutions</h4>
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Gestion commerciale</a>
+                                    <a class="nav-link" href="https://demo.pylcom.app/" target="_blank">Gestion commerciale</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Gestion de la relation client</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">ERP</a>
+                                    <a class="nav-link" href="{{route('solutions.erp')}}">ERP</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Gestion des billets</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">E-Commerce</a>
+                                    <a class="nav-link" href="{{route('solutions.billets')}}">Gestion des billets</a>
                                 </li>
                             </ul>
 

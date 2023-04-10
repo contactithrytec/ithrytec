@@ -29,6 +29,12 @@ Route::group(['prefix' => 'services'], function (){
 
 });
 
+
+Route::group(['prefix' => 'solutions'], function (){
+    Route::get('/ERP',function (){ return view('Solutions.integre'); })->name('solutions.erp');
+    Route::get('/billets',function (){ return view('Solutions.billets'); })->name('solutions.billets');
+});
+
 Route::get('/fonctionnalités', function () {
     return view('main_features');
 })->name('main');

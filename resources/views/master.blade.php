@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- SEO Meta description -->
-    <meta name="description" content="Hostlar hosting template designed for all web hosting, business, multi purpose, domain sale websites, online business, personal hosting company and similar sites and many more.">
+    <meta name="description" content="Ithrytec.com">
     <meta name="author" content="ThemeTags">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!--title-->
-    <title>Hostlar - Hosting Provider with WHMCS Template</title>
+    <title>Ithrytec.com</title>
 
     <!--build:css-->
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
@@ -46,6 +46,9 @@
             display: table;
             margin: 0 auto;
             text-align: left;
+        }
+        .solution:hover{
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
         }
     </style>
 </head>

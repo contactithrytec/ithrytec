@@ -127,7 +127,7 @@
                                 </a>
                             </div>
                             <div class="title-with-icon-item">
-                                <a class="title-with-icon-link" href="shared-hosting.html">
+                                <a class="title-with-icon-link" href="{{route('solutions.erp')}}">
                                     <div class="media">
                                         <div class="media-body">
                                             <span class="u-header__promo-title">ERP-Progicielde gestion intégré</span>
@@ -136,7 +136,7 @@
                                 </a>
                             </div>
                             <div class="title-with-icon-item">
-                                <a class="title-with-icon-link" href="shared-hosting.html">
+                                <a class="title-with-icon-link" href="{{route('solutions.billets')}}">
                                     <div class="media">
                                         <div class="media-body">
                                             <span class="u-header__promo-title">Solution de gestion des billets</span>

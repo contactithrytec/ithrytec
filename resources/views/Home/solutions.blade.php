@@ -11,24 +11,32 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-3 mt-4">
+                        <a  class="solution nav-link" href="https://demo.pylcom.app/" target="_blank">
                         <div class="white-bg shadow-sm rounded p-5">
                             <h5 style="color: #9698e6">Solution de gestion commerciale</h5>
                         </div>
+                        </a>
                     </div>
                     <div class="col-sm-12 col-md-3 mt-4">
+                        <a class="solution nav-link" href="#">
                         <div class="white-bg shadow-sm rounded p-5">
                             <h5 style="color: #e47358">Solution de gestion de la relation client </h5>
                         </div>
+                        </a>
                     </div>
                     <div class="col-sm-12 col-md-3 mt-4">
+                        <a class="solution nav-link" href="{{route('solutions.erp')}}">
                         <div class="white-bg shadow-sm rounded p-5">
                             <h5 style="color: #3a396e">ERP-Progiciel  <br>de gestion  intégré</h5>
                         </div>
+                        </a>
                     </div>
                     <div class="col-sm-12 col-md-3 mt-4">
+                        <a class="solution nav-link" href="{{route('solutions.billets')}}">
                         <div class="white-bg shadow-sm rounded p-5">
                             <h5 style="color: #8875e5">Solution de gestion des billets</h5>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <div class="section-heading text-center mb-5 mt-4">
