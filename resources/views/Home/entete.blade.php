@@ -1,5 +1,5 @@
 <!--hero section start-->
-<section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('assets/img/hero-11.jpg')no-repeat center center / cover">
+<section class="hero-equal-height pt-165 pb-100 gradient-overlay">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 col-12">

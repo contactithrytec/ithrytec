@@ -20,7 +20,7 @@
     <meta property="og:type" content="article" />
 
     <!--favicon icon-->
-    <link rel="icon" href="{{asset('img/ithrytec/ithrytec_logo.png')}}" type="image/png" sizes="16x16">
+    <link rel="icon" href="{{asset('img/ithrytec/it.png')}}" type="image/png" sizes="16x16">
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -48,7 +48,8 @@
             text-align: left;
         }
         .solution:hover{
-            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            /*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;*/
+            box-shadow: 10px 10px 20px grey;
         }
     </style>
 </head>

@@ -51,9 +51,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="https://demo.pylcom.app/" target="_blank">Gestion commerciale</a>
                                 </li>
-                                <li class="nav-item">
+                                {{--<li class="nav-item">
                                     <a class="nav-link" href="#">Gestion de la relation client</a>
-                                </li>
+                                </li>--}}
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('solutions.erp')}}">ERP</a>
                                 </li>
@@ -97,8 +97,8 @@
 <!--footer copyright start-->
 <div class="footer-bottom gray-light-bg py-3">
     <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md-5 col-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5 col-lg-5 ">
                 <p class="copyright-text pb-0 mb-0">Copyrights © 2023. All
                     rights reserved by
                     <a href="https://ithrytec.com" target="_blank">ithrytec</a>

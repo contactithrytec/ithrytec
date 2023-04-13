@@ -50,9 +50,9 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="embed-responsive embed-responsive-16by9">
-                        {{--  <img src="assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid" />https://youtu.be/9mRuvw4V5tQ
+                        {{--  <img src="assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid" />
                           <img src="assets/img/wordpress-logo.svg" alt="wp hosting" width="100" class="animation-icon-img animation-icon-5" />--}}
-                        <iframe class="bg-primary" width="500" style="background-color: rebeccapurple" height="315"src="https://www.youtube.com/embed/9mRuvw4V5tQ" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="bg-primary" width="500" style="background-color: rebeccapurple" height="315"src="https://www.youtube.com/embed/y7TlnAv6cto" frameborder="0" allowfullscreen></iframe>
                         </iframe>
                     </div>
                 </div>

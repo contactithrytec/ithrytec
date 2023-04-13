@@ -4,7 +4,7 @@
         <nav class="js-mega-menu navbar navbar-expand-md header-nav">
 
             <!--logo start-->
-            <a class="navbar-brand" href="index.html"><img src="{{asset('img/ithrytec/ithrytec_logo1.png')}}" width="120" alt="logo" class="img-fluid" /></a>
+            <a class="navbar-brand" href="{{route('home')}}"><img src="{{asset('img/ithrytec/ithrytec_logo1.png')}}" width="120" alt="logo" class="img-fluid" /></a>
             <!--logo end-->
 
             <!--responsive toggle button start-->
@@ -117,7 +117,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="title-with-icon-item">
+                            {{--<div class="title-with-icon-item">
                                 <a class="title-with-icon-link" href="shared-hosting.html">
                                     <div class="media">
                                         <div class="media-body">
@@ -125,7 +125,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div>--}}
                             <div class="title-with-icon-item">
                                 <a class="title-with-icon-link" href="{{route('solutions.erp')}}">
                                     <div class="media">
